@@ -14,7 +14,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Clara',
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primaryColor: const Color.fromRGBO(255, 73, 72, 1),
+        primarySwatch: const MaterialColor(0xffff4948, {0: Color.fromRGBO(255, 73, 72, 1)}),
       ),
       home: Scaffold(
         appBar: AppBar(
