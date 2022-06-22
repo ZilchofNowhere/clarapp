@@ -28,12 +28,7 @@ class MyApp extends StatelessWidget {
           900: Color.fromRGBO(255, 73, 72, 1),
         }),
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text("Clara"),
-        ),
-        body: const MainPage(),
-      ),
+      home: const MainPage(),
     );
   }
 }
@@ -49,15 +44,20 @@ class MainPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text(
-        "Clara'ya Hoş Geldiniz!",
-        style: TextStyle(
-          fontWeight: FontWeight.bold,
-          fontSize: 30,
-          color: Colors.red,
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Clara"),
+      ),
+      body: const Center(
+        child: Text(
+          "Clara'ya Hoş Geldiniz!",
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 30,
+            color: Colors.red,
+          ),
         ),
-      )
+      ),
     );
   }
 }
