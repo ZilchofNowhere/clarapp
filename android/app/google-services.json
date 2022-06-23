@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "436382782081",
+    "project_id": "clara-development-5682f",
+    "storage_bucket": "clara-development-5682f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436382782081:android:6d19df788ab5fc0437b380",
+        "android_client_info": {
+          "package_name": "com.example.clarapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436382782081-5406r9e3mkar6j3baetmcmssv72i7pch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-7axVu0_lqROnfnCWUth7xHxH-pcYPfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436382782081-5406r9e3mkar6j3baetmcmssv72i7pch.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "436382782081-h638g0bsvn9goiq4bfet8l76rjaku12l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.clarapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
