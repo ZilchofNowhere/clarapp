@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
           900: Color.fromRGBO(255, 73, 72, 1),
         }),
       ),
-      home: const MainPage(),
+      home: const LoginScreen(),
     );
   }
 }
