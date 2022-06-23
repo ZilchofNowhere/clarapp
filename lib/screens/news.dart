@@ -1,6 +1,5 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
+import "package:clarapp/widgets/news_card.dart";
 
 class News extends StatefulWidget {
   const News({Key? key}) : super(key: key);
@@ -10,6 +9,13 @@ class News extends StatefulWidget {
 }
 
 class _NewsState extends State<News> {
+  var titles = [
+    "Bunu görünce çok şaşıracaksınız!",
+    "Ünlü bilim adamı bakın ne yaptı!",
+    "Ayyıldız Tim NASA'yı hackledi.",
+    "Ünlü oyuncu sadece Clara TV ekranlarına röportaj verdi."
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,18 +23,9 @@ class _NewsState extends State<News> {
         title: const Text("Clara"),
         backgroundColor: Theme.of(context).primaryColor,
       ),
-      body: Column(
+      body: ListView(
         children: [
-          Card(
-            margin: const EdgeInsets.all(5),
-            child: Center(
-              child: Column(children: [
-                Image.asset("assets/clara.jpeg"),
-                
-                Text("Lorem ipsum dolor sit amet."),
-              ]),
-            ),
-          ),
+          ...(titles.map((title) => NewsCard("assets/clara.jpeg", title))),
         ],
       ),
     );
