@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>436382782081-h638g0bsvn9goiq4bfet8l76rjaku12l.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.436382782081-h638g0bsvn9goiq4bfet8l76rjaku12l</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBmTqlkE5cfCpgHfpsCgy3dyb8JlKaoqlY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>436382782081</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.clarapp</string>
+	<key>PROJECT_ID</key>
+	<string>clara-development-5682f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>clara-development-5682f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:436382782081:ios:8b820e384c02b35437b380</string>
+</dict>
+</plist>
