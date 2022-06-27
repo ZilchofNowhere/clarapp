@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import "./screens/login_screen.dart";
 import './screens/news.dart';
 import "./screens/article.dart";
+import "./widgets/drawer.dart";
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
           900: Color.fromRGBO(255, 73, 72, 1),
         }),
       ),
-      home: const LoginScreen(),
+      //home: const LoginScreen(),
       /*
       home: const Article(
         title: "Crazy Ones",
@@ -50,6 +51,7 @@ class MyApp extends StatelessWidget {
         "think that they can change the world, are the ones who do.",
       ),
       */
+      home: const News(),
     );
   }
 }
@@ -69,6 +71,7 @@ class MainPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Clara"),
       ),
+      drawer: const CDrawer(),
       body: const Center(
         child: Text(
           "Clara'ya Hoş Geldiniz!",

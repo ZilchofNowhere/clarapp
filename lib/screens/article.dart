@@ -1,3 +1,4 @@
+import 'package:clarapp/widgets/drawer.dart';
 import "package:flutter/material.dart";
 
 class Article extends StatelessWidget {
@@ -22,13 +23,16 @@ class Article extends StatelessWidget {
         title: const Text("Clara"),
         leading: IconButton(
           splashRadius: 30,
-          onPressed: () => print("Goes back to main page"),
+          onPressed: () {
+            print("Goes back to main page");
+          },
           icon: const Icon(
             Icons.arrow_back,
             color: Colors.white,
           ),
         ),
       ),
+      drawer: const CDrawer(),
       body: ListView(
         padding: const EdgeInsets.all(20.0),
         children: [

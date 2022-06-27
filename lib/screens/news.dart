@@ -1,3 +1,4 @@
+import 'package:clarapp/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 import "package:clarapp/widgets/news_card.dart";
 
@@ -23,6 +24,7 @@ class _NewsState extends State<News> {
         title: const Text("Clara"),
         backgroundColor: Theme.of(context).primaryColor,
       ),
+      drawer: const CDrawer(),
       body: ListView(
         children: [
           ...(titles.map((title) => NewsCard("assets/clara.jpeg", title))),
