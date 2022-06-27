@@ -36,6 +36,7 @@ class NewsCard extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
             child: TextButton(
               onPressed: () {
+                Navigator.pushNamed(context, "/article");
                 print("Takes to the news article");
               },
               child: const Text(

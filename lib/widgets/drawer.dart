@@ -33,8 +33,8 @@ class CDrawer extends StatelessWidget {
             ),
             title: const Text("Ana sayfa"),
             onTap: () {
-              print("Go to main screen");
               Navigator.pop(context);
+              Navigator.pushNamed(context, "/news");
             },
           ),
           ListTile(

@@ -15,28 +15,30 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-          child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 32),
-        width: double.infinity,
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Image.asset(
-              "assets/clara.jpeg",
-              height: 128,
-            ),
-            TextFieldInput(
-                textEditingController: _emailController,
-                hintText: "Enter Your Email",
-                textInputType: TextInputType.emailAddress),
-                TextFieldInput(
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 32),
+          width: double.infinity,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Image.asset(
+                "assets/clara.jpeg",
+                height: 128,
+              ),
+              TextFieldInput(
+                  textEditingController: _emailController,
+                  hintText: "Enter Your Email",
+                  textInputType: TextInputType.emailAddress),
+              TextFieldInput(
                 textEditingController: _passwordController,
                 hintText: "Enter Your Password",
                 textInputType: TextInputType.text,
-                isPass: true,)
-          ],
+                isPass: true,
+              ),
+            ],
+          ),
         ),
-      )),
+      ),
     );
   }
 }
